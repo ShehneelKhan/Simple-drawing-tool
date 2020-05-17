@@ -1,5 +1,5 @@
 # Simple-drawing-tool
-It is a simple drawing tool just to clearing concepts while studying.
+It is a simple drawing tool just for clearing concepts while studying.
 
 ## Libraries Used
 * bootstrap
