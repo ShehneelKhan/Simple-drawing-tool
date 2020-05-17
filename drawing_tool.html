@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Drawing Tool</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <script src="https://d3js.org/d3.v4.min.js"></script>
+    <style>
+
+
+    h1 {
+      text-align: center;
+    }
+
+    .content {
+      margin-left: 80px;
+    }
+
+
+    </style>
+    <script src="drawing_tool.js"></script>
+  </head>
+  <body>
+      <h1>Simple Drawing Tool</h1>
+    <div class="content">
+      <select id="color-picker">
+        <option value="black">Black</option>
+        <option value="red">Red</option>
+        <option value="green">Green</option>
+        <option value="blue">Blue</option>
+      </select>
+
+      <select id="thickness-picker">
+        <option value="1">1</option>
+        <option value="2">2</option>
+        <option value="3" selected>3</option>
+        <option value="4">4</option>
+        <option value="5">5</option>
+        <option value="6">6</option>
+        <option value="7">7</option>
+        <option value="8">8</option>
+        <option value="9">9</option>
+        <option value="10">10</option>
+      </select>
+      <button id="erase">Erase</button>
+    </div>
+    <svg id="svg">
+    </svg>
+    </body>
+</html>
