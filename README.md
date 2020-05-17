@@ -3,7 +3,7 @@ It is a simple drawing tool just for clearing concepts while studying. So when t
 
 
 ## Libraries Used
-* bootstrap
-* svg
-* d3
+* Bootstrap
+* SVG
+* D3
 
