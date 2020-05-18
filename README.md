@@ -7,3 +7,6 @@ It is a simple drawing tool just for clearing concepts while studying. So when t
 * SVG
 * D3
 
+## Applications
+* Fast to use
+* Works with or without internet connection
